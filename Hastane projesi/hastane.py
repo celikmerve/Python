@@ -218,7 +218,7 @@ class pencere2(QWidget):
 
                 
 
-       # 11111111110 
+      
     def hastanin_gecmisi(self):
         self.cursor.execute("Select İsim From KAYITLI_KULLANICILAR where Kullanici_Adi=?",(window.kullanici_adi.text(),))
         liste1=self.cursor.fetchall()
@@ -266,7 +266,7 @@ class pencere2(QWidget):
     def kesinlestirme(self):
         mesaj=MIMEMultipart()
         kime=self.line.text()
-        mesaj["From"]="mervelik.2328@gmail.com"
+        mesaj["From"]="mercelik.2328@gmail.com"
         mesaj["To"]=kime
         mesaj["Subject"]="Randevu Bilgisi"
       
@@ -279,7 +279,7 @@ class pencere2(QWidget):
             mail=smtplib.SMTP("smtp.gmail.com",587)
             mail.ehlo()
             mail.starttls()
-            mail.login("mervelik.2328@gmail.com","41584136068Mm.")
+            mail.login("mercelik.2328@gmail.com","sifre")
             mail.sendmail(mesaj["From"],mesaj["To"],mesaj.as_string())
             print("Mail başarıyla gönderildi..")
             mail.close()
