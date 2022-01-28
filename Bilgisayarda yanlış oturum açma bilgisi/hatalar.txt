@@ -1,0 +1,3151 @@
+﻿Düzey	Tarih ve Saat	Kaynak	Olay Kimliği	Görev Kategorisi
+Bilgi	19.10.2021 19:12:49	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x834
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 20:52:38	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 20:06:52	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 20:05:42	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 19:58:33	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 19:58:32	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	17.10.2021 10:22:34	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	16.10.2021 13:39:13	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	16.10.2021 13:39:10	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	16.10.2021 07:28:49	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	15.10.2021 10:56:42	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	15.10.2021 10:54:02	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	15.10.2021 10:53:57	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	15.10.2021 10:50:04	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	15.10.2021 09:28:20	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 21:59:10	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:51:10	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:51:08	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:51:04	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:51:02	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:50:59	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:46:32	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:46:29	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:46:25	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 20:46:22	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 18:20:06	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 18:20:00	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	14.10.2021 08:10:39	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 21:31:58	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xab4
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 19:56:37	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x1B36FAD
+
+Oturum Türü:			3
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Guest
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Hesap şu anda devre dışı.
+	Durum:			0xC000006E
+	Alt Durum:		0xC0000072
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x43d4
+	Çağıran İşlem Adı:	C:\Windows\explorer.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 19:54:01	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x1B36FAD
+
+Oturum Türü:			3
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Guest
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Hesap şu anda devre dışı.
+	Durum:			0xC000006E
+	Alt Durum:		0xC0000072
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x43d4
+	Çağıran İşlem Adı:	C:\Windows\explorer.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 14:46:28	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x1B36FAD
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xd04
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 14:41:20	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		SYSTEM
+	Hesap Adı:		MERVE$
+	Hesap Etki Alanı:		WORKGROUP
+	Oturum Açma Kimliği:		0x3E7
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006D
+	Alt Durum:		0xC000006A
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x814
+	Çağıran İşlem Adı:	C:\Windows\System32\svchost.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	127.0.0.1
+	Kaynak Bağlantı Noktası:		0
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		User32 
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	13.10.2021 09:34:10	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x162C963
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x1ea8
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	12.10.2021 18:56:17	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x2E2482
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xd68
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	12.10.2021 18:49:55	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x2E2482
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x42a8
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	12.10.2021 18:37:41	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x2E2482
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3de0
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	11.10.2021 09:27:51	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x645C4AF
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x404
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 22:24:29	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x6198FF9
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x1edc
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 22:12:59	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x5FF0C2D
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xfac
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 21:28:26	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x2900
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 21:05:24	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x2934
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 21:03:02	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x4090
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 20:58:26	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x45c8
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 20:31:35	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x4560
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 20:19:41	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x2ef4
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 18:27:01	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			3
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Guest
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Hesap şu anda devre dışı.
+	Durum:			0xC000006E
+	Alt Durum:		0xC0000072
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0xd8c
+	Çağıran İşlem Adı:	C:\Windows\explorer.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 17:48:44	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x2e18
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	10.10.2021 17:13:10	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x4B3EE15
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3428
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	9.10.2021 17:08:41	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x455D28F
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x1ef8
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	9.10.2021 12:59:19	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x3418026
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3b88
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	9.10.2021 09:03:52	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x3418026
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3f70
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	9.10.2021 08:59:31	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x3418026
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x43ec
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	9.10.2021 08:10:51	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x3418026
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x1430
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 19:31:28	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x18a0
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 18:49:30	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3378
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 18:41:59	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x3be4
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 16:01:25	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			3
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Guest
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Hesap şu anda devre dışı.
+	Durum:			0xC000006E
+	Alt Durum:		0xC0000072
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x21c0
+	Çağıran İşlem Adı:	C:\Windows\explorer.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 13:58:04	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x2f54
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 12:43:50	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x1278
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 12:39:44	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+	Oturum Açma Kimliği:		0x528AE
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		MERVE
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x34e0
+	Çağıran İşlem Adı:	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	MERVE
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 11:35:44	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		LAPTOP-NT1BR32H
+	Oturum Açma Kimliği:		0x56A49E
+
+Oturum Türü:			3
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Guest
+	Hesap Etki Alanı:		LAPTOP-NT1BR32H
+
+Hata Bilgileri:
+	Hata Nedeni:		Hesap şu anda devre dışı.
+	Durum:			0xC000006E
+	Alt Durum:		0xC0000072
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x940
+	Çağıran İşlem Adı:	C:\Windows\explorer.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	LAPTOP-NT1BR32H
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
+Bilgi	8.10.2021 09:38:00	Microsoft-Windows-Security-Auditing	4625	Logon	"Bir hesap oturum açamadı.
+
+Konu:
+	Güvenlik Kimliği:		MERVE\Asus
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		LAPTOP-NT1BR32H
+	Oturum Açma Kimliği:		0x56A49E
+
+Oturum Türü:			2
+
+Oturumu Açılamayan Hesap:
+	Güvenlik Kimliği:		NULL SID
+	Hesap Adı:		Asus
+	Hesap Etki Alanı:		LAPTOP-NT1BR32H
+
+Hata Bilgileri:
+	Hata Nedeni:		Bilinmeyen kullanıcı adı veya yanlış parola.
+	Durum:			0xC000006E
+	Alt Durum:		0xC000006E
+
+İşlem Bilgileri:
+	Çağıran İşlem Kimliği:	0x26ec
+	Çağıran İşlem Adı:	C:\Program Files\Google\Chrome\Application\chrome.exe
+
+Ağ Bilgileri:
+	İş İstasyonu Adı:	LAPTOP-NT1BR32H
+	Kaynak Ağ Adresi:	-
+	Kaynak Bağlantı Noktası:		-
+
+Ayrıntılı Kimlik Doğrulama Bilgileri:
+	Oturum Açma İşlemi:		Advapi  
+	Kimlik Doğrulama Paketi:	Negotiate
+	Aktarılan Hizmetler:	-
+	Paket Adı (yalnızca NTLM):	-
+	Anahtar Uzunluğu:		0
+
+Bu olay bir oturum açma isteği başarısız olduğunda oluşturulur. Erişilmeye çalışılan bilgisayarda oluşturulur.
+
+Konu alanları oturum açmayı isteyen yerel sistemdeki hesabı belirtir. Bu genellikle Sistemi hizmeti gibi bir hizmet ya da Winlogon.exe veya Services.exe gibi yerel bir işlemdir.
+
+Oturum Türü alanı istenen oturum açma türünü gösterir. En yaygın türler 2 (etkileşimli) ve 3'tür (ağ).
+
+İşlem Bilgileri alanları, sistemdeki hangi hesabın ve işlemin oturum açmayı istediğini gösterir.
+
+Ağ Bilgileri alanları, bir uzaktan oturum açma isteğinin kaynağını gösterir. İş İstasyonu Adı her zaman yoktur ve bazı durumlarda boş olabilir.
+
+Kimlik Doğrulama Bilgileri alanları bu oturum açma isteğine özel ayrıntılı bilgiler sağlar.
+	- Aktarılan Hizmetler, bu oturum açma isteğine katılan ara hizmetleri gösterir.
+	- Paket Adı, NTLM protokolleri arasında hangi alt protokolün kullanıldığını gösterir.
+	- Anahtar Uzunluğu, oluşturulan oturum anahtarının uzunluğunu gösterir. Oturum anahtarı istenmediyse bu 0 olur."
